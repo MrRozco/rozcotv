@@ -15,7 +15,7 @@ function Navbar() {
     }
 
   return (
-    <div className=' relative z-10 bg-white flex flex-col sm:flex-row m-auto p-5 mt-4 rounded-xl justify-between items-center px-8 shadow-md shadow-slate-500 w-11/12 h-4/5'>
+    <div className=' fixed z-10 bg-white flex flex-col sm:flex-row m-auto p-5 mt-4 ml-5 sm:ml-6 md:ml-10 rounded-xl justify-between items-center px-8 shadow-md shadow-slate-500 w-11/12 mx-auto '>
         <div className='flex justify-between w-full sm:w-auto'>
                 <Link to='/'>
                 <h1 className='font-bold text-2xl'>TravelSite</h1>
@@ -25,7 +25,7 @@ function Navbar() {
             </div>
         </div>
         <div className={`${showMenu ? 'block h-[350px]' : 'hidden'}  sm:flex sm:h-auto justify-between items-center text-center w-full sm:w-auto `}>
-            <ul className='flex flex-col sm:flex-row justify-between gap-[40px] sm:gap-5 font-semibold ' >
+            <ul className='flex flex-col mt-4 sm:mt-0 sm:flex-row justify-between gap-[40px] sm:gap-5 font-semibold ' >
             <Link to='/' onClick={toggleMenu}><li className=' hover:bg-blue-200 px-2 py-1 rounded-lg w-auto ' ><FontAwesomeIcon icon={faHouse} /> Home</li></Link>
             <Link to='/About' onClick={toggleMenu}><li className=' hover:bg-blue-200 px-2 py-1 rounded-lg w-auto' ><FontAwesomeIcon icon={faCircleInfo} /> About</li></Link>
             <Link to='/Service' onClick={toggleMenu}><li className=' hover:bg-blue-200 px-2 py-1 rounded-lg w-auto' ><FontAwesomeIcon icon={faToolbox} /> Service</li></Link>
