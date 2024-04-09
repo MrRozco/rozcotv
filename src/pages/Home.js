@@ -7,6 +7,9 @@ import imgOne from '../assets/colombia1.jpg';
 import imgTwo from '../assets/termales.jpg';
 import imgThree from '../assets/tokyonight.jpg';
 import imgFour from '../assets/japanStreet.avif';
+import tripOne from '../assets/pexels-pixabay-163848.jpg';
+import tripTwo from '../assets/pexels-pixabay-210459.jpg';
+import tripThree from '../assets/pexels-stephan-seeber-1054164.jpg';
 
 function Home() {
   return (
@@ -35,17 +38,23 @@ function Home() {
         />
 
         <Trip 
-          boxOneImg={imgOne}
-          boxOneHeading='Title One'
-          boxOneContent='Just some text right here'
 
-          boxTwoImg={imgTwo}
-          boxTwoHeading='Title Two'
-          boxTwoContent='Just some text right here'
+          tripTitle='Discover Your Next Adventure'
+          TripSubtitle='Explore our curated selection of travel experiences and embark on a journey of a lifetime.'
 
-          boxThreeImg={imgThree}
-          boxThreeHeading='Title Three'
-          boxThreeContent='Just some text right here but this one is going to be much longer than the other 2 '
+          boxOneImg={tripOne}
+          boxOneHeading='Pack your water!'
+          boxOneContent='Embark on an unforgettable journey through the mesmerizing deserts with our travel company. From camelback adventures to starlit campsites, immerse yourself in the beauty and tranquility of the desert landscape with our expert-guided tours.'
+
+          boxTwoImg={tripTwo}
+          boxTwoHeading='Historic Places'
+          boxTwoContent={`
+          Step back in time and explore the majestic wonders of history with our travel company's castle tours. From ancient fortresses to opulent palaces, unlock the secrets of bygone eras and experience the grandeur of these iconic landmarks firsthand.`}
+
+          boxThreeImg={tripThree}
+          boxThreeHeading='Feeling adventurous?'
+          boxThreeContent={`
+          Discover the awe-inspiring allure of snowy mountain peaks with our travel company. From heart-pounding ski slopes to tranquil alpine retreats, immerse yourself in the majestic beauty and thrilling adventures of the world's most captivating winter destinations.`}
         />
         </div>
     </>
