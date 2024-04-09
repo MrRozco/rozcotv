@@ -34,23 +34,23 @@ function Footer() {
                 <Link to="/about" className='text-white'>About</Link>
                 <Link to="/service" className='text-white'>Service</Link>
                 <Link to="/contact" className='text-white'>Contact</Link>
-                <Link to="/signup" className='text-white'>Sign Up</Link>
+                <Link to="/" className='text-white'>Sign Up</Link>
             </div>
             <div className='flex flex-col gap-2 mb-6' >
                 <h3 className=' font-bold text-lg text-white '>Navigation</h3>
-                <a href='#' className='text-white'>Home</a>
-                <a href='#' className='text-white'>About</a>
-                <a href='#' className='text-white'>Service</a>
-                <a href='#' className='text-white'>Contact</a>
-                <a href='#' className='text-white'>Sign Up</a>
+                <Link to="/" className='text-white'>Home</Link>
+                <Link to="/about" className='text-white'>About</Link>
+                <Link to="/service" className='text-white'>Service</Link>
+                <Link to="/contact" className='text-white'>Contact</Link>
+                <Link to="/" className='text-white'>Sign Up</Link>
             </div>
             <div className='flex flex-col gap-2 mb-6' >
                 <h3 className=' font-bold text-lg text-white '>Navigation</h3>
-                <a href='#' className='text-white'>Home</a>
-                <a href='#' className='text-white'>About</a>
-                <a href='#' className='text-white'>Service</a>
-                <a href='#' className='text-white'>Contact</a>
-                <a href='#' className='text-white'>Sign Up</a>
+                <Link to="/" className='text-white'>Home</Link>
+                <Link to="/about" className='text-white'>About</Link>
+                <Link to="/service" className='text-white'>Service</Link>
+                <Link to="/contact" className='text-white'>Contact</Link>
+                <Link to="/" className='text-white'>Sign Up</Link>
             </div>
             
         </div>
