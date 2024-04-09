@@ -1,11 +1,13 @@
 import React from 'react'
 import TripData from './TripData';
-import imgOne from '../assets/pexels-photo-17801008.webp';
-import imgTwo from '../assets/pexels-photo-17801008.webp';
-import imgThree from '../assets/pexels-photo-17801008.webp';
 
 
-function Trip() {
+
+function Trip({ 
+    boxOneImg, boxOneHeading, boxOneContent, 
+    boxTwoImg, boxTwoHeading, boxTwoContent, 
+    boxThreeImg, boxThreeHeading, boxThreeContent 
+  }) {
   return (
     <div className=' mx-auto px-4 my-8 py-4' >
         <div className='text-center' >
@@ -14,17 +16,17 @@ function Trip() {
         </div>
        
         <TripData
-            boxOneImg = {imgOne}
-            boxOneHeading = 'Title One'
-            boxOneContent = 'Just some text right here'
+            boxOneImg={boxOneImg}
+            boxOneHeading={boxOneHeading}
+            boxOneContent={boxOneContent}
 
-            boxTwoImg = {imgTwo}
-            boxTwoHeading = 'Title Two'
-            boxTwoContent = 'Just some text right here'
+            boxTwoImg={boxTwoImg}
+            boxTwoHeading={boxTwoHeading}
+            boxTwoContent={boxTwoContent}
 
-            boxThreeImg = {imgThree}
-            boxThreeHeading = 'Title Three'
-            boxThreeContent = 'Just some text right here but this one is going to be much longer than the other 2 '
+            boxThreeImg={boxThreeImg}
+            boxThreeHeading={boxThreeHeading}
+            boxThreeContent={boxThreeContent}
         />
     </div>
   )
