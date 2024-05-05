@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import backgroundImg from '../assets/pexels-photo-2031767.jpeg';
+import backgroundImg from '../assets/rozcotv_banner.png';
 import Destination from '../components/Destination';
 import Trip from '../components/Trip';
 import imgOne from '../assets/colombia1.jpg';
@@ -19,9 +19,12 @@ function Home() {
           backgroundImage={backgroundImg} 
           imageAlt={'Venice at night'} 
           buttonUrl={'/'} 
-          title={'Your Journey Your Story'} 
-          subtitle={'Choose Your Favorite Destination'} 
-          buttonText={'Travel Plan'} 
+          title={'RozcoTV'} 
+          subtitle={'Una nueva manera de ver televisión'} 
+          buttonText={'Descubre más!'}
+          backgroundColor={'black'}
+          textAlign={"text-left"}
+          buttonColor={'rgb(127 29 29)'}
         />
 
         <Destination
@@ -51,7 +54,7 @@ function Home() {
           boxTwoContent={`
           Step back in time and explore the majestic wonders of history with our travel company's castle tours. From ancient fortresses to opulent palaces, unlock the secrets of bygone eras and experience the grandeur of these iconic landmarks firsthand.`}
 
-          boxThreeImg={tripThree}
+          eboxThreeImg={tripThree}
           boxThreeHeading='Feeling adventurous?'
           boxThreeContent={`
           Discover the awe-inspiring allure of snowy mountain peaks with our travel company. From heart-pounding ski slopes to tranquil alpine retreats, immerse yourself in the majestic beauty and thrilling adventures of the world's most captivating winter destinations.`}
