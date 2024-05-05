@@ -6,8 +6,8 @@ function Destination({ firstHeading, firstText, firstImgOne, firstImgTwo, second
   return (
     <div className=' my-8 text-center mx-auto   w-full max-w-screen-xl' >
         <div className='flex-1 text-center p-2 my-8' >
-            <h1 className='text-4xl sm:text-5xl font-bold text-black' >Popular Destinations</h1>
-            <p className='text-1xl sm:text-2xl text-black' >Here are some of the popular destinations:</p>
+            <h1 className='text-4xl sm:text-5xl font-bold text-black' >Ultimos Estrenos</h1>
+            <p className='text-1xl sm:text-2xl text-black' >Descubre los ultimos estrenos y las PPV mas populares:</p>
         </div>
         
         <DestinationData

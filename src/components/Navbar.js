@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faCircleInfo, faToolbox, faAddressBook, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
+import logo from '../assets/logo-lg.png'
 
 const menuItems = [
     { path: '/', icon: faHouse, label: 'Home' },
@@ -24,7 +25,7 @@ function Navbar() {
     <header className=' fixed z-10 bg-white flex flex-col sm:flex-row m-auto p-5 mt-4 ml-5 sm:ml-6 md:ml-10 rounded-xl justify-between items-center px-8 shadow-md shadow-slate-500 w-11/12 mx-auto '>
         <nav className='flex justify-between w-full sm:w-auto'>
                 <Link to='/'>
-                <h1 className='font-bold text-2xl'>TravelSite</h1>
+                <img src={logo} alt="RozcoTV Logo" className="h-16 w-16 sm:h-15 sm:w-15" />
                 </Link>
             <div className=' sm:hidden cursor-pointer' onClick={toggleMenu}>
                 {showMenu ? <FontAwesomeIcon icon={faTimes} className='text-2xl'  /> : <FontAwesomeIcon icon={faBars} className='text-2xl' />}
