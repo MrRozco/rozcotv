@@ -10,10 +10,10 @@ function Trip({
     boxThreeImg, boxThreeHeading, boxThreeContent 
   }) {
   return (
-    <div className=' mx-auto px-4 my-8 py-4 px-8' >
+    <div className=' mx-auto py-4 px-8 pb-20 bg-gradient-to-b lg:bg-gradient-to-l from-black via-black to-red-900' >
         <div className='text-center' >
-            <h1 className='text-4xl sm:text-5xl font-bold text-black mb-2' >{tripTitle}</h1>
-            <p className=' text-1xl sm:text-2xl text-black' >{TripSubtitle}</p>
+            <h1 className='text-5xl sm:text-6xl font-bold text-black mb-4' >{tripTitle}</h1>
+            <p className='mt-4 text-1xl sm:text-2xl text-black' >{TripSubtitle}</p>
         </div>
        
         <TripData

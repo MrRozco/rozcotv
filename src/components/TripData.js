@@ -18,21 +18,21 @@ class TripData extends Component {
 
         return (
             <>
-                <div className=' grid mx-auto grid-cols-1 sm:grid-cols-3 gap-6 mt-4 md:w-[90vw] lg:w-[80vw] justify-items-stretch items-center ' >
-                    <div className=' flex flex-col shadow-2xl bg-white p-4 rounded-lg transition duration-500 ease-out transform hover:scale-105 flex-grow h-full' >
-                        <img  className=' rounded-lg '  src={imgOne}></img>
-                        <h3 className=' mt-2 text-lg font-semibold '>{headingOne}</h3>
-                        <p className=' text-[14px]' >{contentOne}</p>
+                <div className=' grid mx-auto grid-cols-1 sm:grid-cols-3 gap-11 mt-4 md:w-[90vw] lg:w-[80vw] justify-items-stretch items-center ' >
+                    <div className=' flex flex-col shadow-2xl  bg-gradient-to-b  from-red-900 via-gray-900  to-black p-4 p-4 rounded-lg transition duration-500 ease-out transform hover:scale-105 flex-grow h-full' >
+                        <img  className=' rounded-lg h-[65%]'  src={imgOne}></img>
+                        <h3 className=' mt-2 text-xl font-semibold  text-white mb-2'>{headingOne}</h3>
+                        <p className=' text-[18px]  text-white' >{contentOne}</p>
                     </div>
-                    <div className=' flex flex-col shadow-2xl bg-white p-4 rounded-lg transition duration-500 ease-out transform hover:scale-105 flex-grow h-full' >
-                        <img  className=' rounded-lg '  src={imgTwo}></img>
-                        <h3 className=' mt-2 text-lg font-semibold ' >{headingTwo}</h3>
-                        <p className=' text-[14px]' >{contentTwo}</p>
+                    <div className=' flex flex-col shadow-2xl bg-gradient-to-b from-red-900 via-gray-900  to-black p-4 p-4 rounded-lg transition duration-500 ease-out transform hover:scale-105 flex-grow h-full' >
+                        <img  className=' rounded-lg h-[65%]'  src={imgTwo}></img>
+                        <h3 className=' mt-2 text-xl font-semibold  text-white mb-2' >{headingTwo}</h3>
+                        <p className=' text-[18px]  text-white' >{contentTwo}</p>
                     </div>
-                    <div className=' flex flex-col shadow-2xl bg-white p-4 rounded-lg transition duration-500 ease-out transform hover:scale-105 flex-grow h-full ' >
-                        <img  className=' rounded-lg '  src={imgThree}></img>
-                        <h3 className=' mt-2 text-lg font-semibold ' >{headingThree}</h3>
-                        <p className=' text-[14px]' >{contentThree}</p>
+                    <div className=' flex flex-col shadow-2xl bg-gradient-to-b from-red-900 via-gray-900  to-black p-4 rounded-lg transition duration-500 ease-out transform hover:scale-105 flex-grow h-full ' >
+                        <img  className=' rounded-lg h-[65%]'  src={imgThree}></img>
+                        <h3 className=' mt-2 text-xl font-semibold text-white mb-2' >{headingThree}</h3>
+                        <p className=' text-[18px] text-white'  >{contentThree}</p>
                     </div>
                 </div>
             </>
