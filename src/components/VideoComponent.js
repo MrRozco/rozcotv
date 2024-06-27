@@ -19,7 +19,7 @@ function VideoComponent() {
             <div className='rounded-lg overflow-hidden border-8 flex self-center w-[350px] md:w-[380px] h-auto sm:w-auto  lg:w-1/2 lg:h-auto '>
                 <ReactPlayer  
                     url={rozcoVideo} 
-                    playing={true} 
+                    playing={false} 
                     controls 
                     width='100%'
                     height='100%'
