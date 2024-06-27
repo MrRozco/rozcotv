@@ -15,7 +15,7 @@ function Contact() {
   };
   return (
     <div >
-      <Hero backgroundImage={backgroundImg} imageAlt={'Services poster'} title={'Servicios'} textAlign={'text-left'}   /> 
+      <Hero backgroundImage={backgroundImg} imageAlt={'Services poster'} title={'Contáctanos'} textAlign={'text-left'}   /> 
       <div className='flex items-center justify-center py-40 bg-gradient-to-t from-red-900 via-black to-black'>
         <div className=' flex flex-col-reverse gap-5 md:flex-row items-center justify-between rounded-lg py-10 px-10 w-[80vw] border border-white bg-gradient-to-b from-red-900 via-black to-black'>
           <div className='text-center w-[100%]'>
