@@ -18,7 +18,7 @@ function Footer() {
     <footer className='bg-black py-12 px-24' >
         <div className='flex flex-col-reverse md:flex-row  items-center justify-around text-center md:text-left' >
             <div className=' flex flex-col mb-4 justify-center items-center text-center content-center' >
-                <img src={logo} />
+                <img src={logo} alt='logo' />
                 <p className='text-white text-[18px]'>Comienza a explorar el mundo con RozcoTV GRATIS!</p>
                 <Link  to="/contact" ><button className='bg-red-900 text-white px-10 py-3 rounded-lg mt-4 hover:scale-110 font-bold' href={'/contact'}>Empieza Ahora!</button></Link>
             </div>
