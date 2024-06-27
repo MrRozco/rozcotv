@@ -2,18 +2,12 @@ import React from 'react'
 import backgroundImg from '../assets/rozcotv_banner.png';
 import Hero from '../components/Hero'
 import Destination from '../components/Destination';
-import Trip from '../components/Trip';
-import serviceOne from '../assets/pexels-leah-newhouse-3935702.jpg';
-import serviceTwo from '../assets/pexels-alfonso-escalante-2533092.jpg';
-import serviceThree from '../assets/pexels-ketut-subiyanto-4907181.jpg';
-import poster from '../assets/posterService.webp';
 import luisDiaz from '../assets/luisDiaz.jpg'
 import canelo from '../assets/canelo.webp'
 import dragon from '../assets/houseOfTheDragon.webp'
 import apes from '../assets/apes.avif'
 import pablo from '../assets/pabloEscobar.jpg'
 import chavo from '../assets/elChavo.jpg'
-import control from '../assets/sportsBanner.jpg'
 
 function Service() {
   return (

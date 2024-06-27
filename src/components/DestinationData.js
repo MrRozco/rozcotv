@@ -16,8 +16,8 @@ class DestinationData extends Component {
                     </div>
                 
                     <div className='flex w-[80vw] h-[50vw] sm:w-[100%] sm:h-[40vw] md:w-[40%] md:h-[30vw] lg:h-[25vw] pt-2 gap-4 text-center px-4 justify-center  mx-3' >
-                        <img src={this.props.imgOne} alt='seashells on the beach' className='relative w-[150px] bottom-[-4%] md:w-[50%] object-cover rounded-lg transition duration-500 ease-out transform hover:scale-105' />
-                        <img src={this.props.imgTwo} alt='seashells on the beach' className='relative w-[150px] top-[-4%] md:w-[50%] object-cover rounded-lg transition duration-500 ease-out transform hover:scale-105' />
+                        <img src={this.props.imgOne} alt={this.props.imgOne} className='relative w-[150px] bottom-[-4%] md:w-[50%] object-cover rounded-lg transition duration-500 ease-out transform hover:scale-105' />
+                        <img src={this.props.imgTwo} alt={this.props.imgTwo} className='relative w-[150px] top-[-4%] md:w-[50%] object-cover rounded-lg transition duration-500 ease-out transform hover:scale-105' />
                     </div>
                 </div>
             </>

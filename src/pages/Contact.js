@@ -1,11 +1,6 @@
 import React from 'react'
 import backgroundImg from '../assets/rozcotv_banner.png';
 import Hero from '../components/Hero'
-import Destination from '../components/Destination';
-import imgOne from '../assets/pexels-photo-17801008.webp';
-import ContactForm from '../components/ContactForm';
-import contactBanner from '../assets/contactBanner.webp'
-import contactUs from '../assets/fifa-world-cup-trophy.avif'
 import logo from '../assets/logo-lg.png'
 
 function Contact() {
@@ -31,7 +26,7 @@ function Contact() {
             </button>
           </div>
           <div className='w-[30%]'>
-            <img className='w-96 rounded-md ' src={logo} />
+            <img className='w-96 rounded-md ' src={logo} alt='logo' />
           </div>
         </div>
       </div>

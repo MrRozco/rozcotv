@@ -2,8 +2,6 @@ import React from 'react'
 import { useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { faFacebookF, faTwitter, faInstagram, faLinkedinIn, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/logo.png'
 
 
