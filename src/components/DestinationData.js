@@ -11,7 +11,7 @@ class DestinationData extends Component {
             <>
                 <div className={` flex ${flexColClass} ${orderClass} px-4 my-2 self-center justify-center align-middle mx-3 `} >
                     <div className=' my-5 flex-1 text-left overflow-hidden' >
-                        <h2 className=' font-bold text-3xl text-red-700' >{this.props.heading}</h2>
+                        <h2 className=' font-bold text-4xl text-red-700' >{this.props.heading}</h2>
                         <p className='text-white text-[22px]'>{this.props.text}</p>
                     </div>
                 

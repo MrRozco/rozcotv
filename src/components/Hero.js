@@ -9,8 +9,8 @@ function Hero({ backgroundImage, imageAlt, title, subtitle, buttonText, buttonUr
         <div className="absolute inset-0 bg-black opacity-40 md:opacity-0"></div>
         <div className={`${textAlign} z-5 relative`}>
             <h1 className="text-4xl sm:text-6xl font-bold ml-10 mb-4 text-red-700 ">{title && (title)} </h1>
-            {subtitle && <h2 className="text-2xl sm:text-3xl text-white ml-10 mb-8">{subtitle}</h2>}
-            {buttonText && <Link to={buttonUrl} className="mt-4 px-4 py-2 font-bold text-white rounded ml-10 text-3xl font-jersey hover:py-3 hover:px-6 " style={{backgroundColor: buttonColor}}>{buttonText}</Link>}
+            {subtitle && <h2 className="text-3xl sm:text-3xl text-white ml-10 mb-8">{subtitle}</h2>}
+            {buttonText && <Link to={buttonUrl} className="mt-4 px-4 py-2 font-bold text-white rounded ml-10 text-2xl font-jersey hover:py-3 hover:px-6 " style={{backgroundColor: buttonColor}}>{buttonText}</Link>}
         </div>
     </div>
   )

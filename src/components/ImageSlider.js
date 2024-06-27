@@ -16,7 +16,7 @@ function ImageSlider({images}) {
   return (
     <div className='  bg-gradient-to-b lg:bg-gradient-to-r from-black via-black to-red-900  pt-6 pb-10'>
 
-    <h2 className='  md:text-5xl text-3xl font-bold text-center text-red-700 '>Ultimos Estrenos</h2>
+    <h2 className='  md:text-5xl text-4xl font-bold text-center text-red-700 '>Ultimos Estrenos</h2>
 
     <p className='  text-white md:text-1xl text-2xl text-center'>Descubre los ultimos estrenos y los eventos mas esperados:</p>
 

@@ -16,7 +16,7 @@ function VideoComponent() {
                 dispositivo, en cualquier momento y desde cualquier lugar. ¡Descubre un mundo de posibilidades con RozcoTV!
                 </p>
             </div>
-            <div className='rounded-lg overflow-hidden border-8 flex self-center w-[380px] h-auto sm:w-auto  lg:w-1/2 lg:h-auto '>
+            <div className='rounded-lg overflow-hidden border-8 flex self-center w-[350px] md:w-[380px] h-auto sm:w-auto  lg:w-1/2 lg:h-auto '>
                 <ReactPlayer  
                     url={rozcoVideo} 
                     playing={true} 
