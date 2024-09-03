@@ -4,8 +4,6 @@ import Hero from '../components/Hero'
 import Destination from '../components/Destination';
 import luisDiaz from '../assets/luisDiaz.jpg'
 import canelo from '../assets/canelo.webp'
-import dragon from '../assets/houseOfTheDragon.webp'
-import apes from '../assets/apes.avif'
 import pablo from '../assets/pabloEscobar.jpg'
 import chavo from '../assets/elChavo.jpg'
 import romulus from '../assets/romulus.jpg'
