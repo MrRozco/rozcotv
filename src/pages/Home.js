@@ -4,16 +4,10 @@ import backgroundImg from '../assets/rozcotv_banner.png';
 import Trip from '../components/Trip';
 import VideoComponent from '../components/VideoComponent';
 import ImageSlider from '../components/ImageSlider';
-import furiosa from '../assets/furiosa-a-mad-max-saga-french-movie-poster.jpg';
 import dragon from '../assets/houseOfTheDragon.webp'
-import dune from '../assets/dunetwo.jpg';
-import apes from '../assets/apes.avif'
-import euroCopa from '../assets/euroCopa.webp'
 import joel from '../assets/lou.jpg'
 import CTASection from '../components/CTASection';
 import television from '../assets/television-logos.jpg'
-import releases from '../assets/moviePosters.jpg'
-import deportes from '../assets/copaAmerica.jpg'
 import premier from '../assets/premier.jpg'
 import santander from '../assets/ligasan.jpg'
 import latestcoll from '../assets/latestcollage.jpg'
