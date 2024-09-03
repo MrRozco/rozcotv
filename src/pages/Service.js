@@ -8,6 +8,8 @@ import dragon from '../assets/houseOfTheDragon.webp'
 import apes from '../assets/apes.avif'
 import pablo from '../assets/pabloEscobar.jpg'
 import chavo from '../assets/elChavo.jpg'
+import romulus from '../assets/romulus.jpg'
+import anillos from '../assets/anillos.jpg'
 
 function Service() {
   return (
@@ -34,8 +36,8 @@ function Service() {
             Desde los últimos éxitos de taquilla hasta las nuevas temporadas de tus series favoritas, siempre tendrás acceso a lo mejor del entretenimiento. 
             Explora una variedad de géneros, descubre historias cautivadoras y personajes inolvidables. Además, con actualizaciones frecuentes, 
             nunca te perderás un lanzamiento importante. Mantén tu entretenimiento actualizado y disfruta de lo más nuevo, directamente a tu pantalla.`}
-          secondImgOne={dragon}
-          secondImgTwo={apes}
+          secondImgOne={romulus}
+          secondImgTwo={anillos}
         />
 
 <Destination
